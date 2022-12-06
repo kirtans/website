@@ -1,0 +1,78 @@
+.TitleHeader {
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  font-family: 'OkineSans-Thin', sans-serif;
+  font-weight: 300;
+  width: 100%;
+}
+
+.Header {
+  height: 100%;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  color: white;
+  font-family: 'OkineSans-Thin', sans-serif;
+  font-weight: 300;
+}
+
+.HeaderLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.body {
+  padding-top: 20px;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+.content {
+  text-align: left;
+  display: inline-block;
+  width: 800px;
+  margin-left:5%;
+  margin-right: 5%;
+}
+
+.aboutBody {
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutImage {
+  padding-left: 3%;
+  width: 300px;
+  height: 300px;
+}
+
+a {
+  font-size: 15px;
+  color: white;
+  font-family: 'OkineSans-Regular', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+a:hover {
+  color: lightgrey;
+}
+
+
+p {
+  margin: 0;
+  font-family: 'OkineSans-Regular', sans-serif;
+  font-weight: 400;
+    font-size: 16px;
+}
