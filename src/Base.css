@@ -5,7 +5,6 @@
   justify-content: center;
   text-align: center;
   font-size: 40px;
-  color: white;
   font-family: 'OkineSans-Thin', sans-serif;
   font-weight: 300;
   width: 100%;
@@ -13,11 +12,9 @@
 
 .Header {
   height: 100%;
-  background-color: #282c34;
   display: flex;
   flex-direction: column;
   font-size: 20px;
-  color: white;
   font-family: 'OkineSans-Thin', sans-serif;
   font-weight: 300;
 }
@@ -26,39 +23,29 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  /*border-bottom: 1px solid;*/
 }
 
 .body {
   padding-top: 20px;
-  background-color: white;
-  color: black;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-left: 15%;
+  margin-right: 15%;
   text-align: center;
 }
 
 .content {
   text-align: left;
-  display: inline-block;
   width: 800px;
-  margin-left:5%;
-  margin-right: 5%;
-}
-
-.aboutBody {
-  display: flex;
-  flex-direction: row;
-}
-
-.aboutImage {
-  padding-left: 3%;
-  width: 300px;
-  height: 300px;
 }
 
 a {
   font-size: 15px;
-  color: white;
+  color: #333;
   font-family: 'OkineSans-Regular', sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   text-decoration: none;
   padding: 5px;
   margin-left: 20px;
@@ -66,7 +53,7 @@ a {
 }
 
 a:hover {
-  color: lightgrey;
+  color: darkgray;
 }
 
 

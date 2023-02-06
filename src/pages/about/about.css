@@ -1,0 +1,37 @@
+.aboutBody {
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    align-self: center;
+    float: left;
+    text-align: left;
+}
+
+.aboutImage {
+    padding: 0 0 0 3%;
+    width: 300px;
+    height: 330px;
+}
+
+p {
+    margin: 0;
+    font-family: 'OkineSans-Regular', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+@media (max-width: 700px) {
+    .aboutBody {
+        flex-direction: column;
+    }
+
+    .aboutImage {
+        padding: 3% 0 0 0;
+        align-self: center;
+    }
+}
+
+h2 {
+    font-family: 'OkineSans-Regular', sans-serif;
+    font-weight: 600;
+}
