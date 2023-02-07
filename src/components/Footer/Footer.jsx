@@ -7,14 +7,14 @@ const Footer = () => {
       <a href="https://www.instagram.com/kirtan.me/" target="_blank" rel="noreferrer">
         <img
           className="footerImage"
-          src={require('./instagram.png')}            
+          src={require('./instagram.png')}
           alt="Instagram"
         />
       </a>
       <a href="https://www.linkedin.com/in/k1rtan/" target="_blank" rel="noreferrer">
         <img
           className="footerImage"
-          src={require('./linkedin.png')}            
+          src={require('./linkedin.png')}
           alt="LinkedIn"
         />
       </a>
@@ -28,4 +28,5 @@ const Footer = () => {
     </div>
   );
 };
-  export default Footer;
+
+export default Footer;
