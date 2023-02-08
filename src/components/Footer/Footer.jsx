@@ -3,7 +3,7 @@ import './FooterStyles.css';
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footerContent">
       <a href="https://www.instagram.com/kirtan.me/" target="_blank" rel="noreferrer">
         <img
           className="footerImage"

@@ -13,15 +13,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 a {
   font-size: 15px;
   color: #222222;
-  font-family: 'OkineSans-Regular', sans-serif;
   font-weight: 500;
   text-decoration: none;
   padding: 5px;
@@ -37,40 +31,54 @@ h2 {
   padding-top: 55px;
   margin: 0;
   line-height: 100%;
-  font-family: 'OkineSans-Regular', sans-serif;
-  font-weight: 600;
   font-size: 32px;
-  text-align: left;
   color: #222222;
 }
 
 h3 {
   padding-top: 5px;
   margin: 0;
-  line-height: 100%;
-  font-family: 'OkineSans-Regular', sans-serif;
   font-weight: 400;
   font-size: 16px;
-  text-align: left;
   color: #7d7d7d;
 }
 
 p {
   line-height: 1.5;
-  font-family: 'OkineSans-Regular', sans-serif;
-  font-weight: 400;
   font-size: 16px;
-  display: block;
-  margin: 1rem 0;
-  color: #222222;
+}
+
+#root {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  flex: 1 1 auto;
+}
+
+.header {
+  padding: 55px 0;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.mainBody {
+  flex: 1 1 auto;
+}
+
+.footer {
+  border-top: #7d7d7d 1px dotted;
+  margin-top: 34px;
 }
 
 .body {
   max-width: 700px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
 }
 
 @media (max-width: 700px) {
