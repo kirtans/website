@@ -4,7 +4,7 @@ import './FooterStyles.css';
 const Footer = () => {
   return (
     <div className="footerContent">
-      <a href="https://www.instagram.com/kirtan.me/" target="_blank" rel="noreferrer">
+      <a href="https://www.instagram.com/kirtanyc/" target="_blank" rel="noreferrer">
         <img
           className="footerImage"
           src={require('./instagram.png')}
