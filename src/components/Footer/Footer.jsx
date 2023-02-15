@@ -18,11 +18,18 @@ const Footer = () => {
           alt="LinkedIn"
         />
       </a>
-      <a href="https://twitter.com/kirtan_me" target="_blank" rel="noreferrer">
+      <a href="https://twitter.com/kirtanyc" target="_blank" rel="noreferrer">
         <img
           className="footerImage"
           src={require('./twitter.png')}
           alt="Twitter"
+        />
+      </a>
+      <a href="https://www.youtube.com/channel/UCD5j3fX-_RrZSINdpThFEFQ" target="_blank" rel="noreferrer">
+        <img
+          className="youtubeFooterImage"
+          src={require('./youtube.png')}
+          alt="YouTube"
         />
       </a>
     </div>
