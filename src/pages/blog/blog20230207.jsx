@@ -1,8 +1,13 @@
 import React from "react";
+import { Helmet } from 'react-helmet';
 
-const Blog20230702 = () => {
+const Blog20230207 = () => {
 return (
     <div className="body">
+      <Helmet>
+        <title>On Using Social Media</title>
+        <meta name="description" content="My thoughts on how to use social media to your benefit." />
+      </Helmet>
       <h2>On Using Social Media</h2>
       <h3>Tuesday, Feb 07, 2023</h3>
       <p>
@@ -36,4 +41,4 @@ return (
 );
 }
 
-export default Blog20230702;
+export default Blog20230207;

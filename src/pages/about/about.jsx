@@ -1,9 +1,15 @@
 import React from "react";
 import './about.css';
+import { Helmet } from 'react-helmet';
+
 
 const About = () => {
   return (
       <div className="body">
+          <Helmet>
+              <title>About Me</title>
+              <meta name="description" content="About Me" />
+          </Helmet>
           <h2>About</h2>
           <div className="aboutContainer">
               <div>

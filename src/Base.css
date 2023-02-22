@@ -2,3 +2,31 @@
     display: flex;
     justify-content: center;
 }
+
+.blogContent {
+    display: flex;
+    justify-content: center;
+}
+
+.blogLinks {
+    display: flex;
+    flex-direction: column;
+}
+
+a.blogLink {
+    padding-bottom: 0;
+    margin-right: 0;
+}
+
+a.citation {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+p.citation {
+    line-height: 1;
+    font-weight: 600;
+    font-size: 14px;
+}
